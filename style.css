@@ -1,155 +1,28 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+body{
+    background-color:#99d4f1;
 }
-
-.aqua-color {
-    color: rgb(226, 142, 32)
+.container{
+    width: 70%;
+    margin: auto;
 }
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 50px;
-}
-
-a {
-    text-decoration: none;
-    padding: 15px;
-    color: black;
-}
-
-a:hover {
-    color: rgb(121, 115, 115);
-    border: 2px solid orange;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-.flexible-content {
-    display: flex;
-    margin-bottom: 100px;
-    margin-top: 150px;
-}
-
-.half-width {
-    width: 50%;
-    padding-left: 2%;
-
-}
-
-.half-width img {
-    width: 80%;
-}
-
-.link-button {
-    text-decoration: none;
-    padding: 10px 40px;
-    background-image: linear-gradient(rgb(71, 154, 202), rgb(71, 154, 202));
-    color: whitesmoke;
-    font-weight: 700;
-    border-radius: 5px;
-}
-
-nav {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-
-.dream {
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-}
-
-p {
-    padding: 2px;
-}
-
-#skills {
-    margin-left: 20px;
-}
-
-.skill-item {
-    box-shadow: 10px 10px 40px gray;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 2%;
-    border-radius: 10px;
-}
-
-#Projects {
-    margin-left: 20px;
-}
-
-.project-item {
-    box-shadow: 10px 10px 40px gray;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 2%;
-    border-radius: 10px;
-}
-
-
-
-.project-section {
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: bottom left;
-}
-
-#cpp {
-    border-left: 5px solid;
-    border-image: linear-gradient(orange, tomato);
-    border-image-slice: 1;
-}
-
-#java {
-    border-left: 5px solid;
-    border-image: linear-gradient(aqua, cyan);
-    border-image-slice: 1;
-}
-#contacts{
-    margin-left: ;
-}
-.contact-item{
-    box-shadow: 10px 10px 40px gray;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 2%;
-    border-radius: 10px;
-}
-#information{
-    border-left: 5px solid;
-    border-image: linear-gradient(orange, tomato);
-    border-image-slice: 1;
-}
-#message{
-    border-left: 5px solid;
-    border-image: linear-gradient(aqua, cyan);
-    border-image-slice: 1;
-}
-.input-button {
-    color: rgb(7, 6, 6);
-    background-image: linear-gradient(to left, #8f47ca, #f09f36);
-    padding: 10px 38px;
-    border-radius: 100px;
-    margin-left: 15px;
-}
-.email {
-    padding: 10px 99px 8px 10px;
-    margin: 15px 30px 15px 30px;
-    border: 1px solid #44a007;
-    
-}
-
-
-footer p {
+#h1{
     text-align: center;
-    color: rgb(3, 3, 3);
+}
+#p1{
+    font-size: 30px;
+    text-align: center;
+}
+#pick{
+    width: 10%;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: #e69d3e;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#user-content{
+    text-align: center;
+    padding-top: 10px;
 }
